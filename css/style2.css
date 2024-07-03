@@ -1,0 +1,24 @@
+body{
+    margin: 0%;
+    background-color: #e8e2d4;
+    font-family: Sora;
+    letter-spacing: 0.02em;
+
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    width:fit-content;
+}
+
+header {
+    background-color: #514f52;
+    padding: 24px 80px;
+    font-size: 20px;
+    color: #e8e2d4;
+}
+
+header .container {
+}
+

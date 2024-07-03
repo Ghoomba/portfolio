@@ -1,0 +1,156 @@
+/*#444  #e8e2d4*/
+
+/* GENERAL */
+
+* {
+    font-family: Sora;
+    margin: 0;
+    padding-top: 0;
+}
+
+body {
+    line-height: normal;
+    background-color: #e8e2d4;
+
+    font-family: Sora;
+    letter-spacing: 0.02em;
+}
+
+/* HEADER */
+
+header {
+    background-color: #514f52;
+    height: 14vh;
+    padding: 24px 80px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #e8e2d4;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+    box-sizing: border-box;
+}
+
+#personal {
+    width: 214px;
+    position: relative;
+    height: 26px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 56px;
+    height: 26px;
+    object-fit: cover;
+}
+
+nav {
+    background-color: #49474a;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 25px;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #e0b068;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    gap: 8px;
+    font-size: 17px;
+    color: #e8e2d4;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+/* ABOUT ME */
+
+#aboutMe {
+    height: 86vh;
+    background-color: #e8e2d4;
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+
+#aboutMe .container {
+    height: 100%;
+}
+
+/* SKILLS */
+
+#skills {
+    height: 397px;
+
+    padding: 50px 80px;
+    box-sizing: border-box;
+
+    background-color: #444;
+}
+
+#skills .container {
+    height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/* PROJECTS */
+
+main .container {
+    height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+main {
+    height: 1470px;
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+
+/* CONTACTS */
+
+#contact .container {
+    height: 100%;
+}
+
+#contact {
+    height: 488px;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    background-color: #444;
+}
+
+/* FOOTER */
+
+footer .container {
+    height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+footer {
+    height: 104px;
+
+    padding: 24px 80px;
+    box-sizing: border-box;
+    background-color: #444;
+}
+
